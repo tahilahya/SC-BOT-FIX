@@ -1,18 +1,15 @@
 module.exports = {
-  ownerId: 8263833218,
   telegramBotToken: "8296995571:AAFw8nxZhIErDF1Uo6Aa7CaeK-6CuysDFgg",
+  ownerId: 8263833218, // ganti dengan ID Telegram kamu
   sessionName: "session",
-  photoStart: "https://files.catbox.moe/y72ctj.jpg",
-  message: {
-    owner: `🚫 Cuma owner yang bisa, bos!`,
-    premium: `💎 Khusus member premium, bos!`,
-    wait: `⏳ Otw boskuu, sabar ya...`,
-    error: `⚠️ Anjir, error. Coba lagi ntar.`,
-    waNotConnected: `⚠️ Waduh, WA-nya belum nyambung bos. /pairing dulu lah.`
-  },
+  photoStart: "https://telegra.ph/file/3a5a2b7b2a.jpg", // boleh link bebas
   settings: {
-    namabot: "Cek Bio By Rasya",
-    footer: "Powered By Rasya",
+    namabot: "CekBioBot",
     cekBioBatchSize: 15
+  },
+  message: {
+    owner: "❌ Lu bukan owner!",
+    premium: "🔒 Fitur ini buat member premium.",
+    waNotConnected: "⚠️ WhatsApp belum tersambung, tunggu atau pairing dulu."
   }
 };
