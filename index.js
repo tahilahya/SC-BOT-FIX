@@ -1,8 +1,3 @@
-import fs from "fs";
-import path from "path";
-const sessionPath = path.join(process.cwd(), "session");
-if (!fs.existsSync(sessionPath)) fs.mkdirSync(sessionPath, { recursive: true });
-if (!fs.existsSync(path.join(sessionPath, "creds.json")))  fs.writeFileSync(path.join(sessionPath, "creds.json"), "{}");
 console.log('Memulai bot...');
 const { Telegraf } = require('telegraf');
 const makeWASocket = require('@whiskeysockets/baileys').default;
