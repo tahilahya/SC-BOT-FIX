@@ -1,17 +1,19 @@
 {
-  "name": "sc-bot-final",
+  "name": "sahroni",
   "version": "1.0.0",
-  "description": "Bot cek bio WA via Telegram + pairing",
+  "description": "Cek bio",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "6.6.0",
+    "@whiskeysockets/baileys": "npm:@kriszz-hayanasi/baileys",
     "axios": "^1.12.2",
     "jimp": "^0.16.13",
     "pino": "^8.15.1",
-    "telegraf": "^4.15.3",
-    "@hapi/boom": "^10.0.0"
+    "telegraf": "^4.15.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
